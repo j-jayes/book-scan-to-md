@@ -210,10 +210,13 @@ __marimo__/
 # Ignore data files but keep directory structure
 data/raw/*
 !data/raw/.gitkeep
+!data/raw/README.md
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/README.md
 data/output/*
 !data/output/.gitkeep
+!data/output/README.md
 
 # API keys and secrets
 .env
